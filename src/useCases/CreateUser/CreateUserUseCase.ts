@@ -34,5 +34,7 @@ export class CreateUserUseCase {
             subject: "Bem vindo ao App",
             body: `<h1>Welcome ${data.name}</h1>`,
         });
+
+        return user;
     }
 }
